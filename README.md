@@ -17,3 +17,14 @@ The script uses the following libraries:
 
 This automation allows for a more efficient way to verify invoices and perform quick analyses of the products purchased.
 
+### Notebooks and Scripts
+
+- **AnkerProformaConverter.ipynb**: A Colab notebook that runs the script in the cloud.
+  
+- **AnkerProformaConverter.py**: A Python script executable on a local machine with Python installed. The script requires modification to correct:
+  - The path to Poppler
+  - The path to Tesseract
+  - The temporary path where images are saved for text recognition
+  - The paths of the three outputs:
+    - The CSV output file
+    - Two TXT files for errors and lines intentionally not exported
