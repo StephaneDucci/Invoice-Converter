@@ -1,4 +1,4 @@
-## Anker-Invoice-Converter
+## Main Foreign Supplier Invoice Converter
 
 This Python script, hosted in a Colab notebook within the company cloud, allows users to upload a PDF invoice from the supplier Anker and outputs an Excel file containing exclusive product data along with all relevant details:
 - SKU
